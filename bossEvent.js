@@ -1,0 +1,1 @@
+//Crear un evento en que si el jugador hace clic en el boss, este se movera
