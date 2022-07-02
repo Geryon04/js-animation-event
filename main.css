@@ -1,22 +1,28 @@
-#ball{
+#ball {
     position: relative;
     background-color: #990000;
     width: 50px;
     height: 50px;
     padding: 20px;
     border-radius: 50%;
+}
+
+.ball-move-click {
     animation-name: ball-move;
     animation-duration: 4s;
     animation-iteration-count: infinite;
 }
+
 @keyframes ball-move {
-    0%{
+    0% {
         left: 0px;
     }
-    50%{
+
+    50% {
         left: 200px;
     }
-    100%{
+
+    100% {
         left: 0px;
     }
 }
