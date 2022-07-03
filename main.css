@@ -7,6 +7,40 @@
     border-radius: 50%;
 }
 
+#gun{
+    position: relative;
+    top: auto;
+    background-color: #990099;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
+
+#ammo{
+    position: inherit;
+    background-color: #990099;
+    width: 5px;
+    height: 5px;
+}
+
+.gun-ammo{
+    animation-name: cannon;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes cannon{
+    0%{
+        left: 0px;
+    }
+    50%{
+        left: 100px;
+    }
+    100%{
+        left: 200px;
+    }
+}
+
 .ball-move-click {
     animation-name: ball-move;
     animation-duration: 4s;
