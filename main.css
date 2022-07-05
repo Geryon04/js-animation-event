@@ -20,6 +20,7 @@
     position: inherit;
     top:25px;
     background-color: #990099;
+    border-radius: 50%;
     width: 5px;
     height: 5px;
 }
