@@ -1,0 +1,7 @@
+#floor{
+    position: fixed;
+    top: 600px;
+    width: max-content;
+    height: 100px;
+    background-color: #000000;
+}
